@@ -1,0 +1,31 @@
+cmake_minimum_required(VERSION 3.5)
+
+project(combanatorial.1_1)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/build")
+set(SOURCE_FILES 1_1.cpp combinatorial/permutation.h)
+add_executable(combanatorial.1_1 ${SOURCE_FILES})
+
+project(combanatorial.1_2)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/build")
+set(SOURCE_FILES 1_2.cpp combinatorial/combination.h)
+add_executable(combanatorial.1_2 ${SOURCE_FILES})
+
+project(combanatorial.1_3)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/build")
+set(SOURCE_FILES 1_3.cpp combinatorial/variation.h)
+add_executable(combanatorial.1_3 ${SOURCE_FILES})
+
+project(combanatorial.1_4)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/build")
+set(SOURCE_FILES 1_4.cpp)
+add_executable(combanatorial.1_4 ${SOURCE_FILES})
+
+project(combanatorial.1_6_3)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/build")
+set(SOURCE_FILES 1_6_3.cpp)
+add_executable(combanatorial.1_6_3 ${SOURCE_FILES})
