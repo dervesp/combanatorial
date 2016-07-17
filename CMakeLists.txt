@@ -24,6 +24,12 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/build")
 set(SOURCE_FILES 1_4.cpp)
 add_executable(combanatorial.1_4 ${SOURCE_FILES})
 
+project(combanatorial.1_5)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/build")
+set(SOURCE_FILES 1_5.cpp)
+add_executable(combanatorial.1_5 ${SOURCE_FILES})
+
 project(combanatorial.1_6_3)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/build")
