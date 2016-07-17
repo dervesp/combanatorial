@@ -119,7 +119,9 @@ int main(int argc, char * argv[])
             else
             {
                 if (edgeWeight > 0)
-                graph.addEdge(i, j);
+                {
+                    graph.addEdge(i, j);
+                }
             }
         }
     }
