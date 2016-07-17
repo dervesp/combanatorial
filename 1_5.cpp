@@ -112,7 +112,11 @@ int main(int argc, char * argv[])
         }
         istringstream sstream2(line);
         unsigned weight, cost;
-        while (sstream2 >> weight >> cost)
+        if (!(sstream2 >> weight >> cost)) {
+            cout << "wrong input format" << endl;
+            return 1;
+        }
+        else
         {
             backpack.addItem(weight, cost);
         }
